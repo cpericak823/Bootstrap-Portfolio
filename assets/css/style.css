@@ -30,15 +30,15 @@ body {
 }
 
 .connect {
-    position :relative;
-    animation: mymove 5s infinite;
+	float: right;
+   background-color: white; 
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 10s;
 }
 
-@-webkit-keyframes mymove {
-    0%   {top: 0px;}
-    25%  {top: 200px;}
-    75%  {top: 50px}
-    100% {top: 100px;}
+@-webkit-keyframes example {
+    from {background-color: white;}
+    to {background-color: purple;}
 }
 
 .images1 {
