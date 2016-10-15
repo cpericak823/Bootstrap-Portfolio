@@ -1,7 +1,6 @@
 body {
 	background-color:rgba(192,192,192,0.3);
 }
-
 .btn-info {
 	font-size: 20px;
 	float: left;
@@ -9,67 +8,55 @@ body {
 .navbar {
 	text-align: center;
 }
-
 .headings {
 	font-weight: bold;
 	font-style: italic;
+	text-align: right;
+	margin-top: 30px;
 }
-
 .images {
 	width: 50px;
 	height: 50px;
 }
-
 .paragraph {
 	padding: 10px;
 	text-align: left;
 }
-
 .panel-body {
 	text-align: center;
-	
 }
-
 .connect .panel {
    background-color: transparent; 
     -webkit-animation: example 10s;
    animation: example 10s;
 }
-
 @-webkit-keyframes example {
     from {background-color: white;}
     to {background-color: purple;}
 }
-
 @-moz-keyframes example {
     from {background-color: white;}
     to {background-color: purple;}
 }
-
 @-o-keyframes example {
     from {background-color: white;}
     to {background-color: purple;}
 }
-
 @keyframes example {
     from {background-color: white;}
     to {background-color: purple;}
 }
-
 .images1 {
 	padding: 10px;
 }
-
 #inputName {
 	font-style: italic;
 	font-weight: bold;
 }
-
 #inputEmail {
 	font-style: italic;
 	font-weight: bold;
 }
-
 #inputMessage {
 	font-style: italic;
 	font-weight: bold;
