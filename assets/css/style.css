@@ -30,7 +30,7 @@ body {
 }
 
 .connect {
-	float: right;
+	/*float: right;*/
    background-color: white; 
     -webkit-animation-name: example;
     -webkit-animation-duration: 10s;
