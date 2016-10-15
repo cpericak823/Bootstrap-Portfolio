@@ -1,9 +1,6 @@
 body {
 	background-color:rgba(192,192,192,0.3);
 }
-.row {
-	padding: 10px;
-}
 
 .btn-info {
 	font-size: 20px;
@@ -29,14 +26,28 @@ body {
 	
 }
 
-.connect {
-	/*float: right;*/
-   background-color: white; 
-    -webkit-animation-name: example;
-    -webkit-animation-duration: 10s;
+.connect .panel {
+   background-color: transparent; 
+    -webkit-animation: example 10s;
+   animation: example 10s;
 }
 
 @-webkit-keyframes example {
+    from {background-color: white;}
+    to {background-color: purple;}
+}
+
+@-moz-keyframes example {
+    from {background-color: white;}
+    to {background-color: purple;}
+}
+
+@-o-keyframes example {
+    from {background-color: white;}
+    to {background-color: purple;}
+}
+
+@keyframes example {
     from {background-color: white;}
     to {background-color: purple;}
 }
